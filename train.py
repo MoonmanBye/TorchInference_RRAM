@@ -22,7 +22,9 @@ from torchsummary import summary
 from utils import *
 from collections import OrderedDict
 
+#creating an ArgumentParser object
 parser = argparse.ArgumentParser(description='PyTorch CIFAR10/ImageNet Training')
+#Adding arguments
 parser.add_argument('--model', type=str, help='model type')
 parser.add_argument('--lr', default=0.1, type=float, help='learning rate')
 parser.add_argument('--momentum', type=float, default=0.9, help='Momentum.')
